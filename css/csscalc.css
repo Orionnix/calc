@@ -1,0 +1,15 @@
+html{background: #00FFFF}
+body{text-align: center;}
+button:hover,button:active{background-color: #00FFFF}
+.calculadora{
+align-self: center;
+	border: 2px solid #FFF;
+	border-width: 15px;
+	border-radius: 20px;
+	border-style: groove;
+	width: 200px;height: 300px;
+	float: none;
+}
+.botones{width: 40; text-align: center;display: inline;}
+button{width: 30px;height: 30px;}
+.numero{color: #FFF;}

@@ -1,27 +1,16 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE html><html>
+<head>
 <title>Ejemplo</title><meta charset="utf-8">
-<script type="text/javascript">
-
-function vaciar () {
-  document.getElementById("n1").value = "";
-}
-
-function cuadrado() {
-  var num = document.getElementById("n1");
-  num.value = num.value * num.value;
-}
-
-function inverso() {
-  var num = document.getElementById("n1");
-  num.value = 1/num.value;
-}
-</script>
+<link rel="stylesheet" type="text/css" href="css/csscalc.css">
+<script type="text/javascript" src="js/jscalc.js"></script>
 </head>
 <body>
-  Número:
-  <input type="text" id="n1" onclick="vaciar()"><p>
-
+	<section class="calculadora">
+  <p class="numero">CALCULADORA<input type="text" id="n1" onclick="vaciar()"></p>
+<article class="botones">
   <button onclick="cuadrado()"> x<sup>2</sup> </button>
   <button onclick="inverso()"> 1/x </button>
+</article>
+</section>
 </body>
 </html>
